@@ -2684,6 +2684,9 @@ class CfgSettings
 		// Autolocks server until its ready to accept players
 		useAutoLock = 0;
 
+		// Rounds the restart time to the nearest real life hour. 1 == enabled. 0 == disabled.
+		restartOnHour = 1;
+
 		// Server will autoLock at that time before restart (minutes)
 		restartAutoLock = 3;
 
