@@ -10,7 +10,13 @@
 private["_threadID","_result","_threadIndex"];
 _threadID = _this select 0;
 _result = false;
-_threadIndex = [ExileSystemSpawnThread, _threadID] call ExileClient_util_find;
+_threadIndex = -1;
+{
+	if ((_x select 4) isEqualTo _threadID) exitWith
+	{
+		_threadIndex = _forEachIndex;
+	}
+} forEach ExileSystemSpawnThread;
 if (_threadIndex != -1) then
 {
 	ExileSystemThreadDelays deleteAt (ExileSystemThreadDelays find ((ExileSystemSpawnThread select _threadIndex) select 0));
