@@ -1,4 +1,4 @@
-Unofficial Exilemod Fixes by [Rod Sterling](https://github.com/Rod-Serling)
+Unofficial Exilemod Fixes by [Rod Serling](https://github.com/Rod-Serling)
 =============
 Collection of latest fixes from the community on top of the latest Official Exile Client and Server files. 
 
