@@ -12,6 +12,13 @@ Updates
 - Vehicle/Player Rollback fix.
 - Fix for loot spawning in/around traders.
 - Fix for loot spawning in/around bases.
+- Optimized getNearbyPlayers to help server FPS.
+- Fix for garbage collector collecting bodies early.
+- Fix for using bad find function with threads.
+- Added "round to nearest hour" option for restart settings.
+- Re word for lack of revive script.
+- disabled respawn button near the end of the countdown.
+- Infistar's Improved RE Filters
 
 To keep track of latest fixes and changes:
 - Click [`Watch`](https://github.com/Exile-UnofficialDevs/Exile-Unofficial/subscription) to subscribe the the latest commits.
