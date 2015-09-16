@@ -7,7 +7,8 @@
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
  */
  
-private["_secondsRemaining","_transition"];
+private["_secondsRemaining","_transition","_display","_controlSuicide"];
+disableSerialization;
 _secondsRemaining = ExileClientBleedOutCountDownEnd - time;
 if (_secondsRemaining <= 0) then
 {
@@ -22,6 +23,12 @@ else
 		if (_secondsRemaining < 10) then
 		{
 			[_transition * 10] call BIS_fnc_bloodEffect;
+			
+			if (!isNull (findDisplay 49)) then {
+				_display = findDisplay 49;
+				_controlSuicide = _display displayCtrl 1337;
+				_controlSuicide ctrlEnable false;
+			};
 		};
 		if (!ExileClientBleedOutHeartbeatPlaying) then
 		{
