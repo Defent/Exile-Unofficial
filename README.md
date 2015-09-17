@@ -19,6 +19,7 @@ Updates
 - Re word for lack of revive script.
 - disabled respawn button near the end of the countdown.
 - Infistar's Improved RE Filters
+- Removed fall damage for 5 seconds during parachuting
 
 To keep track of latest fixes and changes:
 - Click [`Watch`](https://github.com/Exile-UnofficialDevs/Exile-Unofficial/subscription) to subscribe the the latest commits.
