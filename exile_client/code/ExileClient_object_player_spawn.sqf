@@ -24,6 +24,8 @@ if (!isNull _parachuteObject) then
 {
 	[["Exile", "ParachuteLandingSpeed"], 15, "", 35, "", true, false, true, true] call BIS_fnc_advHint;
 	ExileJobParachuteFix = [0.25, ExileClient_object_player_parachuteFix, [], true] call ExileClient_system_thread_addtask;
+	ExileClientParachuteNoFallDamage = true;
+	ExileJobParachuteNoFallDamage = [0.25, ExileClient_object_player_parachuteNoFallDamage, [], true] call ExileClient_system_thread_addtask;
 };
 player enableFatigue false; 
 true call ExileClient_gui_showSurvivalInfo;

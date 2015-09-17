@@ -79,6 +79,7 @@ else
 		ExileClientNotificationIsShown = false;
 		ExileClientNotificationRun = diag_tickTime;
 		ExileLockIsShown = false;
+		ExileClientParachuteNoFallDamage = false;
 		[] call ExileClient_object_player_stats_reset;
 		[] call ExileClient_gui_postProcessing_initialize;
 		[] call ExileClient_gui_hud_event_hook;

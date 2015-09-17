@@ -13,3 +13,12 @@ _selectionName = _this select 1;
 _amountOfDamage = _this select 2;
 _sourceOfDamage = _this select 3;
 _typeOfProjectile = _this select 4;
+
+if (ExileClientParachuteNoFallDamage) then
+{
+	if ((_sourceOfDamage isEqualTo player) && {_typeOfProjectile isEqualTo ""}) then
+	{
+		_amountOfDamage = 0;
+	};
+};
+_amountOfDamage

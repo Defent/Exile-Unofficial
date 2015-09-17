@@ -235,6 +235,7 @@ forEach
 	['ExileClient_object_player_bambiStateEnd', 'exile_client\code\ExileClient_object_player_bambiStateEnd.sqf'],
 	['ExileClient_object_player_initialize', 'exile_client\code\ExileClient_object_player_initialize.sqf'],
 	['ExileClient_object_player_parachuteFix', 'exile_client\code\ExileClient_object_player_parachuteFix.sqf'],
+	['ExileClient_object_player_parachuteNoFallDamage', 'exile_client\code\ExileClient_object_player_parachuteNoFallDamage.sqf'],
 	['ExileClient_object_player_respawn', 'exile_client\code\ExileClient_object_player_respawn.sqf'],
 	['ExileClient_object_player_save', 'exile_client\code\ExileClient_object_player_save.sqf'],
 	['ExileClient_object_player_spawn', 'exile_client\code\ExileClient_object_player_spawn.sqf'],
