@@ -30,14 +30,14 @@ _addedItems = [];
 forEach _tools;
 if ( getNumber(_recipeConfig >> "requiresOcean") == 1 ) then
 {
-	if !(surfaceIsWater getPos player) then 
+	if !(surfaceIsWater getPosATL player) then 
 	{
 		_metSideConditions = false;
 	};
 };
 if ( getNumber(_recipeConfig >> "requiresFire") == 1 ) then
 {
-	if !([getPos player, 4] call ExileClient_util_world_isFireNearby) then 
+	if !([getPosATL player, 4] call ExileClient_util_world_isFireNearby) then 
 	{
 		_metSideConditions = false;
 	};
@@ -46,7 +46,7 @@ if( _interactionModelGroupClassName != "" ) then
 {
 	_interactionModelGroupModels = getArray(configFile >> "CfgInteractionModels" >> _interactionModelGroupClassName >> "models");
 	_foundObject = false;
-	if ([(getPos player), 10, _interactionModelGroupModels] call ExileClient_util_model_isNearby) then
+	if ([(getPosATL player), 10, _interactionModelGroupModels] call ExileClient_util_model_isNearby) then
 	{
 		_foundObject = true;	
 	}
