@@ -1,4 +1,4 @@
-Unofficial Exilemod Fixes by [Rod Serling](https://github.com/Rod-Serling)
+Unofficial Exilemod Fixes
 =============
 Collection of latest fixes from the community on top of the latest Official Exile Client and Server files. 
 
@@ -19,7 +19,15 @@ Updates
 - Re word for lack of revive script.
 - disabled respawn button near the end of the countdown.
 - Infistar's Improved RE Filters
-- Removed fall damage for 5 seconds during parachuting
+- Removed fall damage for 5 seconds during parachuting.
+- Fix for players spawning in midair.
+
+Credits
+--------------------------
+- [Rod Serling](https://github.com/Rod-Serling)
+- [Eraser1](https://github.com/eraser1)
+- [GR8](https://github.com/Gr8z)
+
 
 To keep track of latest fixes and changes:
 - Click [`Watch`](https://github.com/Exile-UnofficialDevs/Exile-Unofficial/subscription) to subscribe the the latest commits.
